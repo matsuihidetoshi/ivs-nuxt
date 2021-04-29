@@ -1,4 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
+import CopyPlugin from 'copy-webpack-plugin'
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -14,6 +15,10 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
+      {
+        rel: 'stylesheet',
+        href: 'https://cdnjs.cloudflare.com/ajax/libs/video.js/7.6.6/video-js.css'
+      },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
@@ -71,5 +76,15 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    plugins: [
+      new CopyPlugin({
+        patterns: [
+          {
+            from: 'node_modules/amazon-ivs-player/dist/assets/amazon-ivs-wasmworker.min.*',
+            to: '[name].[ext]'
+          }
+        ]
+      })
+    ]
   }
 }

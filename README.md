@@ -17,4 +17,10 @@ $ yarn start
 $ yarn generate
 ```
 
+## Installed packages(Requied if you want to build a project from scratch)
+
+```bash
+$ yarn add copy-webpack-plugin@6 copy-webpack-plugin video.js
+```
+
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
