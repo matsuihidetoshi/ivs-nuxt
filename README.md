@@ -139,6 +139,14 @@
 
 ***
 
+<img width="1197" alt="スクリーンショット 2021-05-22 23 51 50" src="https://user-images.githubusercontent.com/38583473/119230963-843ce980-bb59-11eb-9071-2b8c3c4b680a.png">
+
+- 先ほど **1. **IVS** の設定** で最後に控えた下記2つを入力します。
+  - **取り込みサーバー**
+  - **ストリームキー**
+- **Nickname** は **ivs-nuxt-1** と入力し、 **Add RTMP server** をクリックします。
+
+***
 
 
 ## Build Setup
