@@ -37,6 +37,32 @@
 
 ***
 
+### IVS チャネルを作成
+
+<img width="887" alt="スクリーンショット 2021-05-22 22 30 10" src="https://user-images.githubusercontent.com/38583473/119228605-b137cf00-bb4e-11eb-879c-e062fac00f6c.png">
+
+- **ivs** と入力して、 **Amazon Interactive Video Service** をクリック
+
+***
+
+<img width="887" alt="スクリーンショット 2021-05-22 22 44 26" src="https://user-images.githubusercontent.com/38583473/119228776-88640980-bb4f-11eb-8624-219168e7a167.png">
+
+- **リージョンを 米国西部（オレゴン）に変更** をクリック
+
+***
+
+<img width="1125" alt="スクリーンショット 2021-05-22 22 51 13" src="https://user-images.githubusercontent.com/38583473/119228927-58693600-bb50-11eb-9cf3-3658f473391a.png">
+
+- **チャネルの作成**をクリック
+
+***
+
+<img width="491" alt="スクリーンショット 2021-05-22 23 00 16" src="https://user-images.githubusercontent.com/38583473/119229203-c6fac380-bb51-11eb-9814-492a884a0f63.png">
+
+- **チャネル名**に**ivs-nuxt-1**と入力し、**チャネルの作成**をクリック
+
+***
+
 ## 2. **StreamYard** の登録・設定
 
 ### **StreamYard** に登録
