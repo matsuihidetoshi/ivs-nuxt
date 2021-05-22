@@ -7,12 +7,14 @@
 
 ## 目次
 
-1. **StreamYard** の登録・設定
-2. **IVS** の設定
+1. **IVS** の設定
+2. **StreamYard** の登録・設定
 3. **Nuxt.js** プロジェクトのセットアップ
 4. **Amplify Console** でデプロイ
 
-## 1. **StreamYard** の登録・設定
+## 1. **IVS** の設定
+
+## 2. **StreamYard** の登録・設定
 
 ### **StreamYard** に登録
 - [**StreamYard のトップページ**](https://streamyard.com/) へアクセスします。
