@@ -1,4 +1,10 @@
-# ivs-nuxt
+# Amazon Interactive Video Service (IVS) と AWS Amplify を使って自分だけのオリジナル配信サイトを作る！
+こんにちは！ 株式会社スタートアップテクノロジー所属、 **JAWS-UG** 浜松支部の松井です！  
+オンライン配信しようとした場合、 **YouTube Live** などを活用する方法が考えられますね。  
+しかし、既存サービスを活用する場合カスタマイズが難しく、何かと不自由もあるかと思います。  
+そこで今回は、 **AWS** で提供されている **Amazon Interactive Video Service (IVS)** と **AWS Amplify** を活用して、自分だけのオリジナル配信サイトを構築する方法をご紹介します！
+
+## 
 
 ## Build Setup
 
