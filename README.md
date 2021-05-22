@@ -14,6 +14,29 @@
 
 ## 1. **IVS** の設定
 
+### **AWS マネジメントコンソール** にログイン
+- [**AWS マネジメントコンソール**](https://console.aws.amazon.com/)にアクセスします。
+
+***
+
+<img width="1198" alt="スクリーンショット 2021-05-22 21 55 41" src="https://user-images.githubusercontent.com/38583473/119227442-db868e00-bb48-11eb-9d74-a43195f3dcf0.png">
+
+- メールアドレスを入力して、**次へ**をクリックします。
+
+***
+
+<img width="1198" alt="スクリーンショット 2021-05-22 22 03 06" src="https://user-images.githubusercontent.com/38583473/119227950-6ff1f000-bb4b-11eb-9163-0534c30c4fc0.png">
+
+- セキュリティチェックを入力して、**送信**をクリックします。
+
+***
+
+<img width="1198" alt="スクリーンショット 2021-05-22 22 18 01" src="https://user-images.githubusercontent.com/38583473/119228043-032b2580-bb4c-11eb-8de0-ff720c362ef1.png">
+
+- パスワードを入力して、**サインイン**をクリック
+
+***
+
 ## 2. **StreamYard** の登録・設定
 
 ### **StreamYard** に登録
@@ -33,7 +56,7 @@
 
 ***
 
-<img width="866" alt="streamyard_confirmation" src="https://user-images.githubusercontent.com/38583473/119226646-23a3b180-bb45-11eb-8477-01f2ae766705.png">
+<img width="1198" alt="スクリーンショット 2021-05-22 21 30 25" src="https://user-images.githubusercontent.com/38583473/119227518-36b88080-bb49-11eb-971d-e3840e4ff8a4.png">
 
 - 確認コードを入力して、 **Log in** をクリックします。
 
