@@ -63,7 +63,7 @@
 
 ***
 
-<img width="1198" alt="スクリーンショット 2021-05-22 23 07 58" src="https://user-images.githubusercontent.com/38583473/119229520-62d8ff00-bb53-11eb-8146-ceae55c2d511.png">
+<img width="1198" alt="スクリーンショット 2021-05-22 23 07 58" src="https://user-images.githubusercontent.com/38583473/119230716-69b64080-bb58-11eb-9eef-6e9d72495625.png">
 
 - 作成した **ivs-nuxt-1** 詳細ページの、**ストリーム設定**の3点をコピーして控えます。
   - **取り込みサーバー**
