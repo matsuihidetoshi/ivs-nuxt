@@ -2,9 +2,15 @@
 こんにちは！ 株式会社スタートアップテクノロジー所属、 **JAWS-UG** 浜松支部の松井です！  
 オンライン配信しようとした場合、 **YouTube Live** などを活用する方法が考えられますね。  
 しかし、既存サービスを活用する場合カスタマイズが難しく、何かと不自由もあるかと思います。  
-そこで今回は、 **AWS** で提供されている **Amazon Interactive Video Service (IVS)** と **AWS Amplify** を活用して、自分だけのオリジナル配信サイトを構築する方法をご紹介します！
+そこで今回は、 **AWS** で提供されている **Amazon Interactive Video Service (IVS)** と **AWS Amplify** 、  
+また **StreamYard** と言うライブストリームサービスを活用して、自分だけのオリジナル配信サイトを構築する方法をご紹介します！
 
-## 
+## 目次
+
+1. **StreamYard** の登録
+2. **IVS** の設定
+3. **Nuxt.js** プロジェクトのセットアップ
+4. **Amplify Console** でデプロイ
 
 ## Build Setup
 
