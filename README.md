@@ -69,7 +69,7 @@
 - 作成した **ivs-nuxt-1** 詳細ページの、**ストリーム設定**の3点をコピーして控えます。
   - **取り込みサーバー**
   - **ストリームキー**
-  - **再生URL**
+  - **再生設定**
 
 ***
 
@@ -239,7 +239,16 @@ npm run dev
 
 ### **Nuxt.js** プロジェクトに自分の **再生URL** を設定
 
-- クローンしたコードの下記の箇所に
+- クローンしたコードの下記の箇所に[こちら](https://github.com/matsuihidetoshi/ivs-nuxt/blob/main/README.md#ivs-%E3%83%81%E3%83%A3%E3%83%8D%E3%83%AB%E3%82%92%E4%BD%9C%E6%88%90)で控えた自分の **再生URL** を上書きします。
+
+https://github.com/matsuihidetoshi/ivs-nuxt/blob/d0b41a9ee2042e38456fffe3dd0dfd4101e51f90/pages/index.vue#L26
+
+```
+- streamUrl: 'https://fcc3ddae59ed.us-west-2.playback.live-video.net/api/video/v1/us-west-2.893648527354.channel.DmumNckWFTqz.m3u8',
++ streamUrl: '控えた再生URL',
+```
+
+***
 
 ## Build Setup
 
