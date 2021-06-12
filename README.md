@@ -153,9 +153,18 @@
 
 ### **AWS Cloud9** 環境の構築
 
-- [こちら](https://aws.amazon.com/jp/builders-flash/202008/amplify-crud-app#002)を参考に、 **AWS Cloud9** 環境を構築します。
+- [**こちら**](https://aws.amazon.com/jp/builders-flash/202008/amplify-crud-app#002)を参考に、 **AWS Cloud9** 環境を構築します。
   -  **Cloud9 の環境が整いました。** の箇所まで進めます。
 
+### **Nuxt.js** プロジェクトのクローン(これ以降は **Cloud9** のターミナルで操作してください)
+
+- [**こちら**](https://github.com/matsuihidetoshi/ivs-nuxt)のリポジトリをクローンし、プロジェクトディレクトリに移動します。
+- ※これ以降、**プロジェクトリポジトリに移動しないとうまくコマンドが実行できません**のでお気をつけください。
+
+```
+git clone https://github.com/matsuihidetoshi/ivs-nuxt.git
+cd ivs-nuxt
+```
 
 ## Build Setup
 
