@@ -222,6 +222,14 @@ npm run dev
 
 ***
 
+<img width="1437" alt="スクリーンショット 2021-06-12 23 49 26" src="https://user-images.githubusercontent.com/38583473/121780014-53d8f000-cbd9-11eb-9f24-5b7d5fb6c6e4.png">
+
+- **Go live** をクリックし、ダイアログからさらに **Go live** をクリックします。
+
+***
+
+### **Nuxt.js** 
+
 ## Build Setup
 
 ```bash
