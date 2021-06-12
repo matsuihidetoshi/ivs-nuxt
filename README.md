@@ -194,6 +194,34 @@ npm run dev
 
 - デモ用のストリーミング動画が表示されるのを確認します。
 
+***
+
+### **StreamYard** で配信開始
+
+<img width="810" alt="スクリーンショット 2021-06-12 22 48 35" src="https://user-images.githubusercontent.com/38583473/121778122-787c9a00-cbd0-11eb-83f6-80be67b6b320.png">
+
+- **Create a broadcast** をクリックします。
+
+***
+
+<img width="810" alt="スクリーンショット 2021-06-12 22 56 15" src="https://user-images.githubusercontent.com/38583473/121778400-b29a6b80-cbd1-11eb-9241-4f63d9077bf5.png">
+
+- アイコンをクリックし（マウスオーバーで、 `ivs-nuxt-1` と表示されます）、任意のタイトルを入力して、 **Create broadcast** をクリックします。
+
+***
+
+<img width="549" alt="スクリーンショット 2021-06-12 23 00 46" src="https://user-images.githubusercontent.com/38583473/121778558-613eac00-cbd2-11eb-9708-c0c8a98ddb97.png">
+
+- **Enter studio** をクリックします。
+
+***
+
+<img width="1437" alt="スクリーンショット 2021-06-12 23 06 06" src="https://user-images.githubusercontent.com/38583473/121778802-9d264100-cbd3-11eb-9e1d-e94c72236616.png">
+
+- 左下の顔の表示にマウスオーバーすると、 **Add to stream** と表示されるので、クリックします。
+
+***
+
 ## Build Setup
 
 ```bash
