@@ -248,7 +248,22 @@ https://github.com/matsuihidetoshi/ivs-nuxt/blob/d0b41a9ee2042e38456fffe3dd0dfd4
 + streamUrl: '控えた再生URL',
 ```
 
+- **Preview** しているページを再読み込みして、自分の配信が再生されることを確認します。
+
 ***
+
+- **GitHub** に変更を反映
+
+```
+git add .
+git commit -m 'Set own stream url'
+git push origin main
+# username, password を入力
+```
+
+***
+
+4. **Amplify Console** でデプロイ
 
 ## Build Setup
 
