@@ -156,13 +156,22 @@
 - [**こちら**](https://aws.amazon.com/jp/builders-flash/202008/amplify-crud-app#002)を参考に、 **AWS Cloud9** 環境を構築します。
   -  **Cloud9 の環境が整いました。** の箇所まで進めます。
 
-### **Nuxt.js** プロジェクトのクローンとセットアップ(これ以降は **Cloud9** のターミナルで操作してください)
+### **Nuxt.js** プロジェクトのフォーク、クローン、セットアップ(これ以降は **Cloud9** のターミナルで操作してください)
 
-- [**こちら**](https://github.com/matsuihidetoshi/ivs-nuxt)のリポジトリをクローンし、プロジェクトディレクトリに移動します。
+- [**こちら**](https://github.com/matsuihidetoshi/ivs-nuxt)のリポジトリにアクセスします。
+
+***
+
+<img width="1437" alt="スクリーンショット 2021-06-12 23 36 44" src="https://user-images.githubusercontent.com/38583473/121780208-42441800-cbda-11eb-8cc2-25e871d87495.png">
+
+- **Fork** をクリックします。
+
+***
+
 - ※これ以降、**プロジェクトリポジトリに移動しないとうまくコマンドが実行できません**のでお気をつけください。
 
 ```
-git clone https://github.com/matsuihidetoshi/ivs-nuxt.git
+git clone https://github.com/[自分のGitHubアカウントのキー]/ivs-nuxt.git
 cd ivs-nuxt
 ```
 
@@ -228,7 +237,9 @@ npm run dev
 
 ***
 
-### **Nuxt.js** 
+### **Nuxt.js** プロジェクトに自分の **再生URL** を設定
+
+- クローンしたコードの下記の箇所に
 
 ## Build Setup
 
