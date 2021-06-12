@@ -156,7 +156,7 @@
 - [**こちら**](https://aws.amazon.com/jp/builders-flash/202008/amplify-crud-app#002)を参考に、 **AWS Cloud9** 環境を構築します。
   -  **Cloud9 の環境が整いました。** の箇所まで進めます。
 
-### **Nuxt.js** プロジェクトのクローン(これ以降は **Cloud9** のターミナルで操作してください)
+### **Nuxt.js** プロジェクトのクローンとセットアップ(これ以降は **Cloud9** のターミナルで操作してください)
 
 - [**こちら**](https://github.com/matsuihidetoshi/ivs-nuxt)のリポジトリをクローンし、プロジェクトディレクトリに移動します。
 - ※これ以降、**プロジェクトリポジトリに移動しないとうまくコマンドが実行できません**のでお気をつけください。
@@ -165,6 +165,34 @@
 git clone https://github.com/matsuihidetoshi/ivs-nuxt.git
 cd ivs-nuxt
 ```
+
+***
+
+- **npm** パッケージをインストールします。
+
+```
+npm i
+```
+
+***
+
+- テスト起動します。
+
+```
+npm run dev
+```
+
+***
+
+<img width="1439" alt="スクリーンショット 2021-06-12 22 17 22" src="https://user-images.githubusercontent.com/38583473/121777405-d0b19d00-cbcc-11eb-8ad0-72088d315907.png">
+
+- **Preview** をクリックしてから、 **Preview Running Application** をクリックします。
+
+***
+
+<img width="1439" alt="スクリーンショット 2021-06-12 22 28 07" src="https://user-images.githubusercontent.com/38583473/121777874-369f2400-cbcf-11eb-8f9a-5f731805abba.png">
+
+- デモ用のストリーミング動画が表示されるのを確認します。
 
 ## Build Setup
 
