@@ -149,6 +149,13 @@
 
 ***
 
+## 3. **Nuxt.js** プロジェクトのセットアップ
+
+### **AWS Cloud9** 環境の構築
+
+- [こちら](https://aws.amazon.com/jp/builders-flash/202008/amplify-crud-app#002)を参考に、 **AWS Cloud9** 環境を構築します。
+  -  **Cloud9 の環境が整いました。** の箇所まで進めます。
+
 
 ## Build Setup
 
