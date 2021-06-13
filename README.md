@@ -6,6 +6,28 @@
 そこで今回は、 **AWS** で提供されている **Amazon Interactive Video Service (IVS)** と **AWS Amplify** 、  
 また **StreamYard** と言うライブストリームサービスを活用して、自分だけのオリジナル配信サイトを構築する方法をご紹介します！
 
+## アーキテクチャ
+- 今回のハンズオンで構築するアーキテクチャです。
+
+![ivs-nuxt](https://user-images.githubusercontent.com/38583473/121799495-803b4d80-cc67-11eb-8247-715221cd610c.png)
+
+- **Amplify Console** を使い、 **Nuxt.js** で作成した静的ページをデプロイ・ホスティングします。
+- **StreamYard** という配信データを送信するWebサービスを使って、 **Amazon IVS** に対してPC上から動画データを送信します。
+- Webブラウザ側から、 **amazon-ivs-player** や、 **Video.js** といったライブラリを利用して、 **Amazon IVS** が提供する再生URLからストリーミングデータを取得して表示します。
+
+***
+
+- また、参考として、[**JAWS DAYS 2021 re:Connect**](https://jawsdays2021.jaws-ug.jp/) の配信サイトのアーキテクチャも紹介します。
+
+![JAWS-DAYS-2021-STREAMING-V2 (5)](https://user-images.githubusercontent.com/38583473/121799787-fe4c2400-cc68-11eb-869f-4708aca5a4c3.png)
+
+- **Amazon EventBridge** をトリガーにして　**AWS Lambda** を実行し、 **Amazon IVS** の配信視聴者数を取得し、 **Amazon DynamoDB** に保存する機能を実装しました。
+- また、 **Amazon IVS** の **Timed Metadata** という機能を利用して、上記の視聴者数も含めたリアルタイムなデータのクライアントへの反映や、アンケート機能などを実装しました。
+- **AWS Amplify** を利用して、配信に付随する各種データの管理ができる仕組みも構築しました。
+
+
+***
+
 ## 目次
 
 1. **IVS** の設定
