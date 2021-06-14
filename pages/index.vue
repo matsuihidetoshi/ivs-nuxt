@@ -23,7 +23,7 @@ export default {
   data () {
     return {
       ivs: null,
-      streamUrl: 'https://fcc3ddae59ed.us-west-2.playback.live-video.net/api/video/v1/us-west-2.893648527354.channel.DmumNckWFTqz.m3u8',
+      streamUrl: process.env.streamUrl,
       player: null,
       timestamp: new Date().getTime()
     }

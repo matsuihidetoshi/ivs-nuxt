@@ -34,6 +34,10 @@ export default {
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
+  env: {
+    streamUrl: process.env.IVS_NUXT_STREAM_URL || 'https://fcc3ddae59ed.us-west-2.playback.live-video.net/api/video/v1/us-west-2.893648527354.channel.DmumNckWFTqz.m3u8'
+  },
+
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
