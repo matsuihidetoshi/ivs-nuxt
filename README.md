@@ -286,29 +286,40 @@ git push origin main
 
 ***
 
-4. **Amplify Console** でデプロイ
+## 4. **Amplify Console** でデプロイ
+- ここまでローカルでプロジェクトを進めてきましたが、いよいよ配信サイトを公開します！
+- **AWS Amplify Console** から簡単なステップで公開できますので、その手順を解説します。
 
-## Build Setup
+***
 
-```bash
-# install dependencies
-$ yarn install
+<img width="1437" alt="スクリーンショット 2021-06-13 0 18 08" src="https://user-images.githubusercontent.com/38583473/121829300-18cfdd00-ccfd-11eb-9809-907575039917.png">
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+- **AWS マネジメントコンソール**で検索ふぉーむに`amplify`と入力します。
+- **AWS Amplify** が表示されたら、クリックします。
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+***
 
-# generate static project
-$ yarn generate
-```
+<img width="1437" alt="スクリーンショット 2021-06-13 0 21 00" src="https://user-images.githubusercontent.com/38583473/121829356-39983280-ccfd-11eb-9c67-776b262e3cd3.png">
 
-## Installed packages(Requied if you want to build a project from scratch)
+- **GET STARTED** をクリックします。
 
-```bash
-$ yarn add copy-webpack-plugin@6 amazon-ivs-player video.js
-```
+***
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+<img width="1437" alt="スクリーンショット 2021-06-13 0 21 59" src="https://user-images.githubusercontent.com/38583473/121829380-4ae13f00-ccfd-11eb-9ec6-becaa7463baa.png">
+
+- **Get started** の下の右側のセクションの **Get started** ボタンをクリックします。
+
+***
+
+<img width="1093" alt="スクリーンショット 2021-06-13 0 23 27" src="https://user-images.githubusercontent.com/38583473/121829415-6b10fe00-ccfd-11eb-8439-51044c50c1b0.png">
+
+- **GitHub** を選択し、 **Continue** をクリックします。
+
+***
+
+<img width="588" alt="スクリーンショット 2021-06-13 0 27 25" src="https://user-images.githubusercontent.com/38583473/121829474-985dac00-ccfd-11eb-9350-35712844845e.png">
+
+- **Authorize aws-amplify-console** をクリックします。
+
+
+
