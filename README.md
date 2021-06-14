@@ -91,7 +91,7 @@
 - 作成した **ivs-nuxt-1** 詳細ページの、**ストリーム設定**の3点をコピーして控えます。
   - **取り込みサーバー**
   - **ストリームキー**
-  - **再生設定**
+  - **再生URL**
 
 ***
 
@@ -321,5 +321,67 @@ git push origin main
 
 - **Authorize aws-amplify-console** をクリックします。
 
+***
 
+<img width="799" alt="スクリーンショット 2021-06-13 0 28 40" src="https://user-images.githubusercontent.com/38583473/121829842-9cd69480-ccfe-11eb-9007-41e171884fd2.png">
+
+- **リポジトリ**からForkしたご自身の **ivs-nuxt** リポジトリを選択します。
+- **main** ブランチを選択して、 **次へ** をクリックします。
+
+***
+
+<img width="644" alt="スクリーンショット 2021-06-13 19 06 42" src="https://user-images.githubusercontent.com/38583473/121829925-cf808d00-ccfe-11eb-9f8a-4cae1b31fcc9.png">
+
+- **ビルド設定の追加**の **Edit** をクリックして、設定ファイルを下記の通り変更してください。
+
+```
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm install
+    build:
+      commands:
+        - npm run build
+        - npm run generate
+  artifacts:
+    # IMPORTANT - Please verify your build output directory
+    baseDirectory: dist
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
+```
+
+- 次に、**次へ**をクリックしてください。
+
+***
+
+<img width="792" alt="スクリーンショット 2021-06-13 19 08 23" src="https://user-images.githubusercontent.com/38583473/121830059-24bc9e80-ccff-11eb-9e63-c902ff769dd9.png">
+
+- **保存してデプロイ**をクリックします。
+
+***
+
+<img width="1122" alt="スクリーンショット 2021-06-13 19 12 38" src="https://user-images.githubusercontent.com/38583473/121830087-369e4180-ccff-11eb-91e4-7f7140f51a23.png">
+
+- プログレスバーのステータスが**検証**になるのを待ちます。
+- その後、**ドメイン**の箇所に記載されているURLをクリックしてください。
+- 配信ページが **Cloud9** で実行したプレビューページ同様表示されればOKです！
+
+***
+
+## まとめ
+いかがでしたでしょうか？  
+こちらの配信サイトは **JavaScript(Vue.js/Nuxt.js)** ベースでできておりますので、  
+もちろんこのリポジトリからカスタムしていただいて独自の機能を追加したり、思い思いのデザインにしていただくことが可能です！  
+例えば、カスタマイズの方向性としては下記などが考えられます。
+
+- **Amazon IVS** の **Timed Metadata** を利用して、バックエンドとのインタラクションを活用した機能を構築する。
+- **Amazon IVS** の録画データの保存機能を有効化して、 **Amazon S3** に配信動画を保存する。
+
+ぜひ、色々とカスタムして遊んでみてください！！  
+**Happy coding!**
 
