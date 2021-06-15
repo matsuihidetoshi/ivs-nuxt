@@ -274,27 +274,31 @@ npm run dev
 
 ### **Nuxt.js** プロジェクトに自分の **再生URL** を設定
 
-- クローンしたコードの下記の箇所に[こちら](https://github.com/matsuihidetoshi/ivs-nuxt/blob/main/README.md#ivs-%E3%83%81%E3%83%A3%E3%83%8D%E3%83%AB%E3%82%92%E4%BD%9C%E6%88%90)で控えた自分の **再生URL** を上書きします。
-
-https://github.com/matsuihidetoshi/ivs-nuxt/blob/d0b41a9ee2042e38456fffe3dd0dfd4101e51f90/pages/index.vue#L26
+- 一度、起動している開発環境のサーバーを停止します(ターミナルで `ctrl + c`)。
 
 ```
-- streamUrl: 'https://fcc3ddae59ed.us-west-2.playback.live-video.net/api/video/v1/us-west-2.893648527354.channel.DmumNckWFTqz.m3u8',
-+ streamUrl: '控えた再生URL',
+ctrl + c
 ```
-
-- **Preview** しているページを再読み込みして、自分の配信が再生されることを確認します。
 
 ***
 
-- **GitHub** に変更を反映
+- ターミナルで下記を実行し、[こちら](https://github.com/matsuihidetoshi/ivs-nuxt/blob/main/README.md#ivs-%E3%83%81%E3%83%A3%E3%83%8D%E3%83%AB%E3%82%92%E4%BD%9C%E6%88%90)で控えた自分の **再生URL** を環境変数に設定します。
 
 ```
-git add .
-git commit -m 'Set own stream url'
-git push origin main
-# username, password を入力
+export IVS_NUXT_STREAM_URL="自分の再生URL"
 ```
+
+***
+
+- サーバーを再起動します。
+
+```
+npm run dev
+```
+
+***
+
+- **Preview** しているページを再読み込みして、自分の配信が再生されることを確認します。
 
 ***
 
