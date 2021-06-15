@@ -310,7 +310,7 @@ npm run dev
 
 <img width="1437" alt="スクリーンショット 2021-06-13 0 18 08" src="https://user-images.githubusercontent.com/38583473/121829300-18cfdd00-ccfd-11eb-9809-907575039917.png">
 
-- **AWS マネジメントコンソール**で検索ふぉーむに`amplify`と入力します。
+- **AWS マネジメントコンソール**で検索フォームに`amplify`と入力します。
 - **AWS Amplify** が表示されたら、クリックします。
 
 ***
@@ -346,7 +346,7 @@ npm run dev
 
 ***
 
-<img width="644" alt="スクリーンショット 2021-06-13 19 06 42" src="https://user-images.githubusercontent.com/38583473/121829925-cf808d00-ccfe-11eb-9f8a-4cae1b31fcc9.png">
+![スクリーンショット 2021-06-14 15 48 52](https://user-images.githubusercontent.com/38583473/121999549-69703480-cde8-11eb-9c24-d5eb48d69aff.png)
 
 - **ビルド設定の追加**の **Edit** をクリックして、設定ファイルを下記の通り変更してください。
 
