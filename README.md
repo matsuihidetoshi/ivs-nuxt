@@ -348,8 +348,12 @@ npm run dev
 
 ![スクリーンショット 2021-06-14 15 48 52](https://user-images.githubusercontent.com/38583473/121999549-69703480-cde8-11eb-9c24-d5eb48d69aff.png)
 
-- **ビルド設定の追加**の **Edit** をクリックして、設定ファイルを下記の通り変更してください。
+- **ビルド設定の追加**の **Edit** をクリックして、後述の `amplify.yml` 通り変更してください。
+- **Advanced settings** をクリックします。
+- **環境変数**の **Key** に `IVS_NUXT_STREAM_URL` を、 **Value** に先ほど[こちら](https://github.com/matsuihidetoshi/ivs-nuxt#ivs-%E3%83%81%E3%83%A3%E3%83%8D%E3%83%AB%E3%82%92%E4%BD%9C%E6%88%90)で控えた **再生URL** を入力します。
+- 次に、**次へ**をクリックしてください。
 
+**amplify.yml**
 ```
 version: 1
 frontend:
@@ -370,8 +374,6 @@ frontend:
     paths:
       - node_modules/**/*
 ```
-
-- 次に、**次へ**をクリックしてください。
 
 ***
 
