@@ -21,7 +21,7 @@
 ## アーキテクチャ
 - 今回のハンズオンで構築するアーキテクチャです。
 
-![ivs-nuxt](https://user-images.githubusercontent.com/38583473/121799495-803b4d80-cc67-11eb-8247-715221cd610c.png)
+![ivs-nuxt (1)](https://user-images.githubusercontent.com/38583473/122328796-3bffc400-cf6b-11eb-9d0b-bd146d2801aa.png)
 
 - **Amplify Console** を使い、 **Nuxt.js** で作成した静的ページをデプロイ・ホスティングします。
 - **StreamYard** という配信データを送信するWebサービスを使って、 **Amazon IVS** に対してPC上から動画データを送信します。
