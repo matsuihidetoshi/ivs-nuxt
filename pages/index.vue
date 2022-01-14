@@ -13,6 +13,13 @@
           autoplay
         />
       </v-card>
+
+      <v-chip
+        color="red"
+        class="mt-3"
+      >
+        {{ metadata === '' ? 'Waiting for the number of viewers...' : count + ' viewers' }}
+      </v-chip>
     </v-col>
   </v-row>
 </template>
@@ -25,7 +32,9 @@ export default {
       ivs: null,
       streamUrl: process.env.streamUrl,
       player: null,
-      timestamp: new Date().getTime()
+      timestamp: new Date().getTime(),
+      metadata: '',
+      count: 0
     }
   },
   mounted () {
@@ -50,6 +59,11 @@ export default {
       })
       this.player.enableIVSQualityPlugin()
       this.player.src(this.streamUrl)
+      const playerEvent = this.player.getIVSEvents().PlayerEventType
+      this.player.getIVSPlayer().addEventListener(playerEvent.TEXT_METADATA_CUE, (cue) => {
+        this.metadata = cue.text
+        this.count = this.metadata.split(',')[0]
+      })
     }
   }
 }
